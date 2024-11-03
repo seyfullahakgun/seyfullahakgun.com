@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark: #121314;
+  --primary-blue: #0084ff;
+  --light-blue: #38b6ff;
+  --primary-green: #00bf63;
+  --light: #eeebff1a;
+}
+
+@font-face {
+  font-family: "Anton";
+  src: url("./assets/fonts/Anton-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Anta";
+  src: url("./assets/fonts/Anta-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lilita One";
+  src: url("./assets/fonts/LilitaOne-Regular.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  @apply font-sans;
+}
